@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UGC NINJA PRO PROVIDER | Mobile Software Tools, FRP, Flash &amp; Activation</title>
+<meta name="description" content="UGC NINJA PRO PROVIDER - mobile software tools and activation: Fenix Pro, Unlock Tool, DFT Pro, TFT, FRP bypass, Android flash, Apple flash and more. Ask price on WhatsApp 0340 2453130.">
+<meta name="theme-color" content="#04060d">
+<meta property="og:title" content="UGC NINJA PRO PROVIDER">
+<meta property="og:description" content="All mobile software tools, activation, FRP, flash and unlock solutions. Ask price on WhatsApp.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2304060d'/%3E%3Cpath d='M16 4l3 9 9 3-9 3-3 9-3-9-9-3 9-3z' fill='%2322d3ee'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@600;800;900&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+<noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+<style>
+:root{
+  --bg:#04060d;--bg2:#070b18;
+  --surface:rgba(255,255,255,.035);--surface2:rgba(255,255,255,.07);
+  --line:rgba(255,255,255,.09);
+  --text:#eaf0ff;--muted:#93a0c4;--dim:#64708f;
+  --c1:#22d3ee;--c2:#8b5cf6;--c3:#f472b6;
+  --wa:#25d366;--wa2:#0f9d58;
+  --grad:linear-gradient(120deg,var(--c1),var(--c2));
+  --r:20px;--shadow:0 20px 60px -20px rgba(0,0,0,.65);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+ul{list-style:none}
+:focus-visible{outline:2px solid var(--c1);outline-offset:3px}
+.container{width:min(1200px,100% - 48px);margin-inline:auto}
+
+/* ---------- Ambient background ---------- */
+#bg{position:fixed;inset:0;z-index:-3;pointer-events:none}
+body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.028) 1px,transparent 1px);
+  background-size:56px 56px;
+  -webkit-mask-image:radial-gradient(ellipse at 50% 15%,#000 0%,transparent 72%);mask-image:radial-gradient(ellipse at 50% 15%,#000 0%,transparent 72%)}
+.glow{position:fixed;width:520px;height:520px;border-radius:50%;filter:blur(130px);opacity:.22;z-index:-2;pointer-events:none;animation:drift 14s ease-in-out infinite}
+.glow.g1{background:var(--c1);top:-160px;left:-140px}
+.glow.g2{background:var(--c2);bottom:-180px;right:-140px;animation-delay:-7s}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(70px,50px)}}
+#progress{position:fixed;top:0;left:0;height:3px;width:100%;background:var(--grad);transform:scaleX(0);transform-origin:left;z-index:100}
+
+/* ---------- Icons ---------- */
+.ic{width:1.25em;height:1.25em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.logo-svg{width:36px;height:36px;flex:none;filter:drop-shadow(0 0 10px rgba(34,211,238,.55))}
+
+/* ---------- Top bar & nav ---------- */
+.topbar{background:linear-gradient(90deg,rgba(34,211,238,.12),rgba(139,92,246,.14));border-bottom:1px solid var(--line);font-size:.82rem;color:var(--muted)}
+.topbar .container{display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;padding:8px 0;text-align:center}
+.topbar b{color:var(--text);letter-spacing:.04em}
+.topbar a{color:var(--c1);font-weight:600;display:inline-flex;gap:4px;align-items:center}
+.live{width:8px;height:8px;border-radius:50%;background:var(--wa);animation:ping 2s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}70%{box-shadow:0 0 0 10px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+
+.nav{position:sticky;top:0;z-index:90;background:rgba(4,6,13,.55);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid transparent;transition:.3s}
+.nav.scrolled{background:rgba(4,6,13,.85);border-bottom-color:var(--line)}
+.nav-in{position:relative;display:flex;align-items:center;justify-content:space-between;gap:20px;height:70px}
+.brand{display:flex;align-items:center;gap:12px}
+.wm{font-family:'Orbitron',sans-serif;font-weight:800;font-size:1.05rem;letter-spacing:.06em}
+.wm b{color:var(--c1);text-shadow:0 0 16px rgba(34,211,238,.7)}
+.links{display:flex;gap:6px}
+.links a{position:relative;padding:8px 14px;border-radius:999px;color:var(--muted);font-size:.92rem;font-weight:500;transition:.25s}
+.links a:hover,.links a.active{color:var(--text);background:var(--surface2)}
+.burger{display:none;width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--surface);cursor:pointer;place-items:center;font-size:1.3rem}
+
+/* ---------- Buttons ---------- */
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 26px;border-radius:999px;font-weight:600;font-size:.95rem;border:1px solid transparent;cursor:pointer;overflow:hidden;white-space:nowrap;transition:transform .25s,box-shadow .25s,background .25s,border-color .25s,color .25s}
+.btn::after{content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent);transform:skewX(-20deg);transition:left .6s}
+.btn:hover::after{left:140%}
+.btn:hover{transform:translateY(-2px)}
+.btn-wa{background:linear-gradient(135deg,var(--wa),var(--wa2));color:#fff;box-shadow:0 12px 32px -12px rgba(37,211,102,.8)}
+.btn-wa:hover{box-shadow:0 16px 40px -10px rgba(37,211,102,.9)}
+.btn-ghost{background:rgba(255,255,255,.04);border-color:var(--line);color:var(--text)}
+.btn-ghost:hover{border-color:var(--c1);color:var(--c1)}
+.btn-sm{padding:9px 18px;font-size:.85rem}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;padding:72px 0 120px;overflow:hidden}
+.spot{position:absolute;inset:0;pointer-events:none;background:radial-gradient(520px circle at var(--sx,70%) var(--sy,30%),rgba(34,211,238,.10),transparent 60%)}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:7px 16px;border-radius:999px;border:1px solid rgba(34,211,238,.3);background:rgba(34,211,238,.06);color:var(--c1);font-size:.8rem;font-weight:500;letter-spacing:.4px}
+.pulse{width:8px;height:8px;border-radius:50%;background:var(--c1);animation:pingc 2s infinite}
+@keyframes pingc{0%{box-shadow:0 0 0 0 rgba(34,211,238,.6)}70%{box-shadow:0 0 0 10px rgba(34,211,238,0)}100%{box-shadow:0 0 0 0 rgba(34,211,238,0)}}
+.hero h1{font-family:'Sora',sans-serif;font-weight:800;line-height:1.05;letter-spacing:-.03em;margin:22px 0 18px}
+.hero h1 .grad{display:block;font-size:clamp(2.5rem,6vw,4.5rem);background:linear-gradient(90deg,#fff 0%,var(--c1) 35%,var(--c2) 65%,#fff 100%);background-size:250% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shine 7s linear infinite}
+.hero h1 .sub-h{display:block;margin-top:10px;font-family:'Orbitron',sans-serif;font-size:clamp(.95rem,2.2vw,1.35rem);letter-spacing:.6em;color:var(--c1);font-weight:600}
+@keyframes shine{to{background-position:250% center}}
+.lead{font-size:1.1rem;color:#c5cee8;max-width:560px}
+.lead-ur{margin-top:8px;color:var(--muted);max-width:560px}
+.typing-line{margin:22px 0 30px;font-size:1.1rem;color:var(--muted);min-height:1.8em}
+.typed{color:var(--c1);font-weight:600}
+.caret{display:inline-block;width:2px;height:1.1em;background:var(--c1);margin-left:3px;vertical-align:middle;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap}
+.trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:34px}
+.trust li{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:.88rem}
+.trust .ic{color:var(--c1)}
+
+/* phone mockup */
+.hero-visual{display:grid;place-items:center}
+.phone-wrap{position:relative;width:min(360px,100%);height:600px;display:grid;place-items:center;perspective:1100px}
+.float{animation:floaty 6s ease-in-out infinite}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+.phone{width:262px;height:530px;border-radius:44px;padding:10px;background:linear-gradient(145deg,#1d2850,#0a0f1f);border:1px solid rgba(255,255,255,.14);box-shadow:0 50px 90px -30px rgba(34,211,238,.4),0 0 0 6px rgba(255,255,255,.03);transform-style:preserve-3d;transition:transform .2s ease-out}
+.screen{position:relative;height:100%;border-radius:34px;overflow:hidden;background:radial-gradient(120% 80% at 50% 0%,#14234f 0%,#070b18 62%);padding:46px 18px 18px;display:flex;flex-direction:column;gap:14px}
+.notch{position:absolute;top:10px;left:50%;transform:translateX(-50%);width:86px;height:22px;background:#000;border-radius:14px}
+.scr-head{display:flex;align-items:center;gap:8px;font-size:.78rem;color:var(--muted);letter-spacing:.05em}
+.scr-head .dot{width:8px;height:8px;border-radius:50%;background:var(--c1);box-shadow:0 0 10px var(--c1)}
+.scr-title{font-family:'Sora',sans-serif;font-size:1.25rem;font-weight:700}
+.log{flex:1;display:flex;flex-direction:column;gap:9px;font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;font-size:.72rem;color:#9fb0d8}
+.ln{animation:lineIn .4s ease both}
+.ln::before{content:"› ";color:var(--c1)}
+@keyframes lineIn{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+.bar{height:6px;border-radius:99px;background:rgba(255,255,255,.08);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--grad);border-radius:99px}
+.res{height:38px;border-radius:12px;display:grid;place-items:center;font-size:.82rem;font-weight:600;color:var(--wa);background:rgba(37,211,102,.1);border:1px solid rgba(37,211,102,.3);opacity:0;transform:scale(.96);transition:.4s}
+.res.show{opacity:1;transform:none}
+.chip{position:absolute;display:flex;align-items:center;gap:8px;padding:9px 14px;border-radius:14px;background:rgba(10,15,31,.78);border:1px solid var(--line);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);font-size:.82rem;font-weight:600;box-shadow:var(--shadow);animation:bob 5s ease-in-out infinite}
+.chip .ic{color:var(--c1)}
+.chip.c1{top:7%;left:0}
+.chip.c2{top:30%;right:-2%;animation-delay:-1.6s}
+.chip.c3{bottom:27%;left:-2%;animation-delay:-3s}
+.chip.c4{bottom:8%;right:2%;animation-delay:-4s}
+.chip.c2 .ic{color:var(--c2)}.chip.c3 .ic{color:var(--c3)}.chip.c4 .ic{color:var(--wa)}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+
+/* ---------- Stats ---------- */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:-56px;position:relative;z-index:2}
+.stat{padding:26px;border-radius:var(--r);border:1px solid var(--line);background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);text-align:center}
+.stat b{display:block;font-family:'Orbitron',sans-serif;font-size:2.3rem;line-height:1.2;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.stat span{color:var(--muted);font-size:.88rem}
+
+/* ---------- Marquee ---------- */
+.marquee{margin-top:56px;overflow:hidden;border-block:1px solid var(--line);background:rgba(255,255,255,.02);padding:16px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.track{display:flex;gap:14px;width:max-content;animation:scroll 45s linear infinite}
+.marquee:hover .track{animation-play-state:paused}
+@keyframes scroll{to{transform:translateX(-50%)}}
+.brand-chip{padding:8px 20px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-weight:500;font-size:.9rem;white-space:nowrap;background:var(--surface)}
+
+/* ---------- Sections ---------- */
+section{padding:96px 0}
+.sec-head{text-align:center;max-width:720px;margin:0 auto 52px}
+.eyebrow{display:inline-block;font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;font-weight:700;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:12px}
+.sec-head h2,.cta-card h2{font-family:'Sora',sans-serif;font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;letter-spacing:-.02em;margin-bottom:14px}
+.sec-head p{color:var(--muted)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.reveal.in{opacity:1;transform:none}
+.reveal.done{transition:transform .25s ease-out,border-color .3s,box-shadow .3s,background .3s}
+
+/* cards */
+.card{position:relative;background:linear-gradient(160deg,rgba(255,255,255,.055),rgba(255,255,255,.015));border:1px solid var(--line);border-radius:var(--r);padding:26px;overflow:hidden;transition:border-color .3s,box-shadow .3s}
+.card::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(380px circle at var(--mx,50%) var(--my,0%),rgba(34,211,238,.14),transparent 45%)}
+.card:hover{border-color:rgba(34,211,238,.45);box-shadow:0 24px 60px -24px rgba(34,211,238,.35)}
+.card:hover::before{opacity:1}
+.card>*{position:relative}
+
+/* tools */
+.filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:34px}
+.filter{padding:9px 20px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer;font-weight:500;font-size:.9rem;transition:.25s}
+.filter:hover{color:var(--text);border-color:rgba(255,255,255,.22)}
+.filter.active{background:var(--grad);color:#04101a;border-color:transparent;font-weight:700}
+.filter .n{opacity:.7;margin-left:6px;font-size:.78rem}
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:22px}
+.tool{display:flex;flex-direction:column;gap:14px}
+.tool[hidden]{display:none!important}
+.pop{animation:pop .45s cubic-bezier(.2,.7,.2,1)}
+@keyframes pop{from{opacity:0;transform:scale(.94) translateY(10px)}to{opacity:1;transform:none}}
+.tool-top{display:flex;gap:14px;align-items:center}
+.logo-slot{width:58px;height:58px;border-radius:16px;display:grid;place-items:center;overflow:hidden;flex:none;background:var(--surface2);border:1px solid var(--line)}
+.logo-slot.has-img{background:#f3f6ff;padding:7px}
+.logo-slot img{width:100%;height:100%;object-fit:contain}
+.mono{width:100%;height:100%;display:grid;place-items:center;font-family:'Sora',sans-serif;font-weight:800;font-size:1.1rem;color:#fff;background:linear-gradient(135deg,hsl(var(--h) 85% 55%),hsl(calc(var(--h) + 45) 85% 42%))}
+.tool h3{font-family:'Sora',sans-serif;font-size:1.1rem;line-height:1.25}
+.cat{display:inline-flex;align-items:center;gap:6px;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:600}
+.cat::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--c1)}
+.cat.c-samsung::before{background:var(--c2)}.cat.c-dongle::before{background:var(--c3)}.cat.c-apple::before{background:#cbd5e1}
+.tool p{color:var(--muted);font-size:.9rem}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chips span{font-size:.72rem;padding:4px 11px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#b4c0e2}
+.tool-bottom{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:16px;border-top:1px dashed var(--line)}
+.price-box small{display:block;color:var(--dim);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase}
+.price-box strong{font-size:.92rem;color:var(--c1)}
+.tools-note{text-align:center;color:var(--muted);font-size:.9rem;margin-top:34px;display:flex;gap:14px;justify-content:center;align-items:center;flex-wrap:wrap}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:22px}
+.ico{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;font-size:1.45rem;color:var(--c1);margin-bottom:16px;background:linear-gradient(135deg,rgba(34,211,238,.16),rgba(139,92,246,.16));border:1px solid rgba(34,211,238,.28)}
+.svc h3,.step h3,.why-card h3{font-family:'Sora',sans-serif;font-size:1.12rem;margin-bottom:8px}
+.svc p,.step p,.why-card p{color:var(--muted);font-size:.92rem}
+.svc ul{margin:14px 0 18px;display:grid;gap:7px}
+.svc li{display:flex;gap:9px;align-items:flex-start;color:#b4c0e2;font-size:.86rem}
+.svc li .ic{color:var(--c1);margin-top:3px;font-size:.95rem}
+.more{display:inline-flex;gap:6px;align-items:center;color:var(--c1);font-weight:600;font-size:.88rem}
+.more .ic{transition:transform .25s}
+.more:hover .ic{transform:translateX(4px)}
+
+/* process */
+.alt{background:linear-gradient(180deg,transparent,rgba(255,255,255,.02),transparent)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.num{font-family:'Orbitron',sans-serif;font-weight:900;font-size:2.4rem;line-height:1;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:14px;opacity:.9}
+.step .ico{margin-bottom:14px}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:22px}
+
+/* faq */
+.faq{max-width:820px;margin:0 auto;display:grid;gap:12px}
+.faq details{border:1px solid var(--line);border-radius:16px;background:var(--surface);transition:border-color .3s,background .3s}
+.faq details[open]{border-color:rgba(34,211,238,.4);background:rgba(34,211,238,.04)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 22px;font-weight:600}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .ic{color:var(--c1);transition:transform .3s}
+.faq details[open] summary .ic{transform:rotate(180deg)}
+.faq details p{padding:0 22px 20px;color:var(--muted)}
+
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:stretch}
+.cta-card{border-radius:26px;padding:44px 38px;border:1px solid rgba(37,211,102,.35);background:radial-gradient(120% 100% at 0% 0%,rgba(37,211,102,.14),transparent 60%),linear-gradient(160deg,rgba(255,255,255,.05),rgba(255,255,255,.015));box-shadow:0 0 80px -30px rgba(37,211,102,.5);display:flex;flex-direction:column;justify-content:center;gap:6px}
+.cta-card p{color:var(--muted);margin-bottom:6px}
+.bignum{font-family:'Orbitron',sans-serif;font-weight:800;font-size:clamp(1.7rem,3.6vw,2.4rem);color:var(--wa);text-shadow:0 0 24px rgba(37,211,102,.5);margin:12px 0 22px}
+.form{display:grid;gap:16px;align-content:start;padding:32px}
+.form h3{font-family:'Sora',sans-serif;font-size:1.25rem}
+.field{display:grid;gap:6px}
+.field label{font-size:.8rem;color:var(--muted);font-weight:500}
+.field input,.field select,.field textarea{width:100%;padding:12px 14px;border-radius:12px;background:rgba(255,255,255,.04);border:1px solid var(--line);color:var(--text);font:inherit;font-size:.92rem;transition:.25s}
+.field select option,.field select optgroup{background:#0a0f1f;color:var(--text)}
+.field textarea{resize:vertical;min-height:90px}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--c1);box-shadow:0 0 0 3px rgba(34,211,238,.15)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+
+/* footer */
+footer{border-top:1px solid var(--line);background:rgba(255,255,255,.015);padding-top:56px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:34px;padding-bottom:36px}
+.foot-grid p{color:var(--muted);font-size:.9rem;margin-top:14px;max-width:340px}
+.foot-grid h4{font-family:'Sora',sans-serif;font-size:.95rem;margin-bottom:14px}
+.foot-grid li a{display:inline-block;padding:4px 0;color:var(--muted);font-size:.9rem;transition:.2s}
+.foot-grid li a:hover{color:var(--c1)}
+.foot-bottom{border-top:1px solid var(--line);padding:22px 0 30px;display:flex;flex-direction:column;gap:8px;color:var(--dim);font-size:.8rem}
+
+/* floating */
+.float-wa{position:fixed;right:22px;bottom:22px;z-index:95;width:62px;height:62px;border-radius:50%;background:linear-gradient(135deg,var(--wa),var(--wa2));display:grid;place-items:center;font-size:1.7rem;color:#fff;animation:ping 2.2s infinite;transition:transform .25s}
+.float-wa:hover{transform:scale(1.08)}
+.float-wa span{position:absolute;right:74px;background:#0a0f1f;border:1px solid var(--line);color:var(--text);font-size:.8rem;font-weight:600;padding:7px 12px;border-radius:10px;white-space:nowrap;opacity:0;transform:translateX(8px);pointer-events:none;transition:.25s}
+.float-wa:hover span{opacity:1;transform:none}
+.totop{position:fixed;left:22px;bottom:22px;z-index:95;width:46px;height:46px;border-radius:14px;border:1px solid var(--line);background:rgba(10,15,31,.85);backdrop-filter:blur(10px);cursor:pointer;display:grid;place-items:center;opacity:0;transform:translateY(12px);pointer-events:none;transition:.3s}
+.totop.show{opacity:1;transform:none;pointer-events:auto}
+.toast{position:fixed;left:50%;bottom:30px;transform:translate(-50%,20px);opacity:0;z-index:120;background:#0e1530;border:1px solid rgba(34,211,238,.4);padding:11px 20px;border-radius:12px;font-size:.88rem;transition:.3s;pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* ---------- Responsive ---------- */
+@media(max-width:1020px){
+  .hero-grid{grid-template-columns:1fr;text-align:center}
+  .hero .lead,.hero .lead-ur{margin-inline:auto}
+  .cta-row,.trust{justify-content:center}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .contact-grid{grid-template-columns:1fr}
+}
+@media(max-width:900px){
+  .burger{display:grid}
+  .links{position:absolute;left:0;right:0;top:100%;flex-direction:column;background:rgba(4,6,13,.97);backdrop-filter:blur(16px);border:1px solid var(--line);border-radius:0 0 18px 18px;padding:14px;display:none}
+  .links.open{display:flex}
+  .nav-cta{display:none}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .foot-grid>div:first-child{grid-column:1/-1}
+}
+@media(max-width:640px){
+  section{padding:70px 0}
+  .hero{padding-top:44px}
+  .phone-wrap{height:560px}
+  .phone{width:240px;height:490px}
+  .stats{gap:10px;margin-top:-44px}
+  .stat{padding:16px 8px}.stat b{font-size:1.5rem}.stat span{font-size:.72rem;display:block}
+  .steps{grid-template-columns:1fr}
+  .two{grid-template-columns:1fr}
+  .cta-card{padding:32px 22px}
+  .tools-grid,.svc-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .chip.c1{left:-4px}.chip.c2{right:-4px}.chip.c3{left:-4px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="glow g1"></div>
+<div class="glow g2"></div>
+<div id="progress"></div>
+
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  </defs>
+  <symbol id="logo" viewBox="0 0 32 32">
+    <circle cx="16" cy="16" r="14.2" fill="none" stroke="url(#lg)" stroke-width="1" opacity=".55"/>
+    <path d="M16 3.5L19.2 12.8 28.5 16 19.2 19.2 16 28.5 12.8 19.2 3.5 16 12.8 12.8Z" fill="url(#lg)"/>
+    <circle cx="16" cy="16" r="2.8" fill="#04060d"/>
+  </symbol>
+  <symbol id="i-unlock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+  <symbol id="i-zap" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.5 9a9 9 0 0 1 14.9-3.4L23 10M1 14l4.6 4.4A9 9 0 0 0 20.5 15"/></symbol>
+  <symbol id="i-radio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M16.2 7.8a6 6 0 0 1 0 8.5m-8.5 0a6 6 0 0 1 0-8.5m11.3-2.8a10 10 0 0 1 0 14.1m-14.1 0a10 10 0 0 1 0-14.1"/></symbol>
+  <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M18 10h-1.3A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9l-3.8 3.8z"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></symbol>
+  <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24"><path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L2 12V2h10l8.6 8.6a2 2 0 0 1 0 2.8z"/><path d="M7 7h.01"/></symbol>
+</svg>
+
+<div class="topbar">
+  <div class="container">
+    <span class="live"></span>
+    <span>Price &amp; activation ke liye WhatsApp karein:</span>
+    <b class="wa-display">0340 2453130</b>
+    <a href="https://wa.me/923402453130" data-msg="Hello UGC NINJA PRO PROVIDER, I want to know the price.">Chat now <svg class="ic"><use href="#i-arrow"/></svg></a>
+  </div>
+</div>
+
+<header class="nav" id="nav">
+  <div class="container nav-in">
+    <a href="#home" class="brand" aria-label="UGC NINJA PRO PROVIDER home">
+      <svg class="logo-svg"><use href="#logo"/></svg>
+      <span class="wm">UGC <b>NINJA</b> PRO</span>
+    </a>
+    <nav class="links" id="links" aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#tools">Tools</a>
+      <a href="#services">Services</a>
+      <a href="#process">How it works</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-wa btn-sm nav-cta" href="https://wa.me/923402453130" data-msg="Hello UGC NINJA PRO PROVIDER, I want to know the price."><svg class="ic"><use href="#i-chat"/></svg>Ask Price</a>
+    <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false"><svg class="ic"><use href="#i-menu"/></svg></button>
+  </div>
+</header>
+
+<main>
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="spot" id="spot"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="pill"><i class="pulse"></i> Mobile Software Provider</span>
+      <h1><span class="grad">UGC NINJA PRO</span><span class="sub-h">PROVIDER</span></h1>
+      <p class="lead">One place for every mobile software need: tool activations, FRP bypass, Android flash, Apple flash, unlock and repair solutions.</p>
+      <p class="lead-ur">Mobile software ki har zaroorat ek hi jagah. Price ke liye seedha WhatsApp karein.</p>
+      <div class="typing-line">We provide <span class="typed" id="typed"></span><i class="caret"></i></div>
+      <div class="cta-row">
+        <a class="btn btn-wa" href="https://wa.me/923402453130" data-msg="Hello UGC NINJA PRO PROVIDER, I want to know the price."><svg class="ic"><use href="#i-chat"/></svg>Ask Price on WhatsApp</a>
+        <a class="btn btn-ghost" href="#tools">Browse Tools <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+      <ul class="trust">
+        <li><svg class="ic"><use href="#i-zap"/></svg>Fast delivery</li>
+        <li><svg class="ic"><use href="#i-chat"/></svg>Direct WhatsApp support</li>
+        <li><svg class="ic"><use href="#i-layers"/></svg>Wide tool range</li>
+      </ul>
+    </div>
+
+    <div class="hero-visual">
+      <div class="phone-wrap">
+        <div class="float">
+          <div class="phone" id="phone">
+            <div class="screen">
+              <div class="notch"></div>
+              <div class="scr-head"><i class="dot"></i> SERVICE CONSOLE</div>
+              <div class="scr-title" id="demoTitle">FRP Bypass</div>
+              <div class="log" id="log"></div>
+              <div class="bar"><i id="barFill"></i></div>
+              <div class="res" id="demoRes"></div>
+            </div>
+          </div>
+        </div>
+        <div class="chip c1"><svg class="ic"><use href="#i-unlock"/></svg>FRP Bypass</div>
+        <div class="chip c2"><svg class="ic"><use href="#i-zap"/></svg>Android Flash</div>
+        <div class="chip c3"><svg class="ic"><use href="#i-refresh"/></svg>Apple Flash</div>
+        <div class="chip c4"><svg class="ic"><use href="#i-cpu"/></svg>Tool Activation</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container stats">
+  <div class="stat reveal"><b id="statTools" data-count="0">0</b><span>Tools &amp; Dongles Listed</span></div>
+  <div class="stat reveal" style="--d:.1s"><b id="statSvc" data-count="0">0</b><span>Service Types</span></div>
+  <div class="stat reveal" style="--d:.2s"><b id="statBrands" data-count="0">0</b><span>Brands Covered</span></div>
+</div>
+
+<div class="marquee" aria-label="Supported brands"><div class="track" id="track"></div></div>
+
+<!-- ================= TOOLS ================= -->
+<section id="tools">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Tools &amp; Activation</span>
+      <h2>Every popular mobile software tool, one provider</h2>
+      <p>Fenix Pro, Unlock Tool, DFT Pro, TFT and many more. Activation price ke liye tool par "Order" dabayein, WhatsApp par price mil jayegi.</p>
+    </div>
+    <div class="filters reveal" id="filters"></div>
+    <div class="tools-grid" id="toolsGrid"></div>
+    <div class="tools-note reveal">
+      <span>Supported models depend on the tool, chipset and security patch. Send your model on WhatsApp for confirmation.</span>
+      <a class="btn btn-ghost btn-sm" href="https://wa.me/923402453130" data-msg="Hello UGC NINJA PRO PROVIDER, I am looking for a tool that is not listed on your website."><svg class="ic"><use href="#i-chat"/></svg>Tool not listed? Ask us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="alt">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Software Solutions</span>
+      <h2>Complete mobile software services</h2>
+      <p>FRP se le kar flash tak, Android aur Apple dono ke liye professional solutions.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="card svc tilt reveal">
+        <div class="ico"><svg class="ic"><use href="#i-unlock"/></svg></div>
+        <h3>FRP Bypass</h3>
+        <p>Google account lock (FRP) removal on Android devices.</p>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>Samsung, Xiaomi, Oppo, Vivo, Realme</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Infinix, Tecno, Itel, Huawei and more</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Send model + Android version for details</li>
+        </ul>
+        <a class="more" href="https://wa.me/923402453130" data-msg="Hello, I need FRP Bypass service. Please share the price.">Ask price <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="card svc tilt reveal" style="--d:.06s">
+        <div class="ico"><svg class="ic"><use href="#i-zap"/></svg></div>
+        <h3>Android Flash</h3>
+        <p>Stock ROM and firmware flashing for all major brands.</p>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>Dead boot and hang-on-logo repair</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Software update and downgrade</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Auto-restart and boot-loop fixes</li>
+        </ul>
+        <a class="more" href="https://wa.me/923402453130" data-msg="Hello, I need Android Flash service. Please share the price.">Ask price <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="card svc tilt reveal" style="--d:.12s">
+        <div class="ico"><svg class="ic"><use href="#i-refresh"/></svg></div>
+        <h3>Apple Flash</h3>
+        <p>iPhone and iPad firmware restore and update.</p>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>Recovery and DFU mode errors</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Restore and update error fixes</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>iOS and iPadOS firmware</li>
+        </ul>
+        <a class="more" href="https://wa.me/923402453130" data-msg="Hello, I need Apple Flash service. Please share the price.">Ask price <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="card svc tilt reveal">
+        <div class="ico"><svg class="ic"><use href="#i-lock"/></svg></div>
+        <h3>Screen Lock Unlock</h3>
+        <p>Pattern, PIN and password removal.</p>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>Samsung, Xiaomi, Oppo, Vivo and more</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Data-safe options where the model supports it</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Quick tool-based unlock</li>
+        </ul>
+        <a class="more" href="https://wa.me/923402453130" data-msg="Hello, I need Screen Lock Unlock service. Please share the price.">Ask price <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="card svc tilt reveal" style="--d:.06s">
+        <div class="ico"><svg class="ic"><use href="#i-radio"/></svg></div>
+        <h3>IMEI &amp; Network Repair</h3>
+        <p>Baseband, IMEI and signal issue solutions.</p>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>No network / emergency calls only</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Baseband and modem repair</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Network unlock: ask for your model</li>
+        </ul>
+        <a class="more" href="https://wa.me/923402453130" data-msg="Hello, I need IMEI / Network Repair service. Please share the price.">Ask price <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="card svc tilt reveal" style="--d:.12s">
+        <div class="ico"><svg class="ic"><use href="#i-cloud"/></svg></div>
+        <h3>Mi Account &amp; Xiaomi</h3>
+        <p>Service solutions for Xiaomi, Redmi and POCO.</p>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>Mi Account related issues</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Fastboot and EDL tasks</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Bootloader support</li>
+        </ul>
+        <a class="more" href="https://wa.me/923402453130" data-msg="Hello, I need Mi Account / Xiaomi service. Please share the price.">Ask price <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="card svc tilt reveal">
+        <div class="ico"><svg class="ic"><use href="#i-wrench"/></svg></div>
+        <h3>Software Repair &amp; Root</h3>
+        <p>Complete software troubleshooting for all phones.</p>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>Camera, sensor and app errors</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Root and custom recovery</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Factory reset and setup</li>
+        </ul>
+        <a class="more" href="https://wa.me/923402453130" data-msg="Hello, I need Software Repair / Root service. Please share the price.">Ask price <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="card svc tilt reveal" style="--d:.06s">
+        <div class="ico"><svg class="ic"><use href="#i-cpu"/></svg></div>
+        <h3>Tool Activation &amp; Credits</h3>
+        <p>New activation, renewals and credits for popular tools.</p>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>Fenix Pro, Unlock Tool, DFT Pro, TFT</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Dongles: UMT, MRT, NCK and more</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Daily, monthly and yearly plans: ask us</li>
+        </ul>
+        <a class="more" href="https://wa.me/923402453130" data-msg="Hello, I need Tool Activation / Credits. Please share the price.">Ask price <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="card svc tilt reveal" style="--d:.12s">
+        <div class="ico"><svg class="ic"><use href="#i-monitor"/></svg></div>
+        <h3>Remote Support</h3>
+        <p>Live help over AnyDesk or TeamViewer.</p>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>Tool installation and drivers</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Step-by-step guidance</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Quick troubleshooting</li>
+        </ul>
+        <a class="more" href="https://wa.me/923402453130" data-msg="Hello, I need Remote Support. Please share the details.">Ask price <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section id="process">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">How it works</span>
+      <h2>Order in four simple steps</h2>
+      <p>Koi lamba process nahi. WhatsApp par message karein aur kaam shuru.</p>
+    </div>
+    <div class="steps">
+      <div class="card step reveal"><div class="num">01</div><div class="ico"><svg class="ic"><use href="#i-chat"/></svg></div><h3>Message us</h3><p>Open WhatsApp and tell us the tool or service you need.</p></div>
+      <div class="card step reveal" style="--d:.08s"><div class="num">02</div><div class="ico"><svg class="ic"><use href="#i-phone"/></svg></div><h3>Share device details</h3><p>Send the model number and the problem so we can check support.</p></div>
+      <div class="card step reveal" style="--d:.16s"><div class="num">03</div><div class="ico"><svg class="ic"><use href="#i-tag"/></svg></div><h3>Get the price</h3><p>We reply with the latest activation or service price. You confirm.</p></div>
+      <div class="card step reveal" style="--d:.24s"><div class="num">04</div><div class="ico"><svg class="ic"><use href="#i-check"/></svg></div><h3>Done</h3><p>Activation or service is delivered, with help if you get stuck.</p></div>
+    </div>
+    <div class="why-grid">
+      <div class="card why-card reveal"><div class="ico"><svg class="ic"><use href="#i-zap"/></svg></div><h3>Fast turnaround</h3><p>Quick replies and quick delivery, so your shop keeps moving.</p></div>
+      <div class="card why-card reveal" style="--d:.08s"><div class="ico"><svg class="ic"><use href="#i-layers"/></svg></div><h3>One provider for all tools</h3><p>From Fenix Pro to dongles, no need to run to many sellers.</p></div>
+      <div class="card why-card reveal" style="--d:.16s"><div class="ico"><svg class="ic"><use href="#i-chat"/></svg></div><h3>Direct support</h3><p>Talk straight to a technician on WhatsApp. No ticket systems.</p></div>
+      <div class="card why-card reveal" style="--d:.24s"><div class="ico"><svg class="ic"><use href="#i-shield"/></svg></div><h3>Clear communication</h3><p>You know the price and the process before work starts.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="alt">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">FAQ</span>
+      <h2>Common questions</h2>
+    </div>
+    <div class="faq reveal">
+      <details>
+        <summary>Activation ki price kitni hai? <svg class="ic"><use href="#i-chev"/></svg></summary>
+        <p>Price tool, plan aur credits ke hisaab se badalti rehti hai. Tool ka naam WhatsApp par bhejein aur aapko latest rate bata diya jayega.</p>
+      </details>
+      <details>
+        <summary>Kya har model support hota hai? <svg class="ic"><use href="#i-chev"/></svg></summary>
+        <p>Support model, chipset aur security patch par depend karta hai. Model number aur Android version bhejein, hum bata denge ke kaam ho sakta hai ya nahi.</p>
+      </details>
+      <details>
+        <summary>Kya remote support milti hai? <svg class="ic"><use href="#i-chev"/></svg></summary>
+        <p>Haan, tool setup aur guidance ke liye AnyDesk ya TeamViewer ke zariye live help di ja sakti hai.</p>
+      </details>
+      <details>
+        <summary>FRP ya unlock ke liye kya ownership proof chahiye? <svg class="ic"><use href="#i-chev"/></svg></summary>
+        <p>Hamari services un devices ke liye hain jo aapki apni hon ya jin par kaam karne ki aapko ijazat ho. Zaroorat par purchase proof ya ID dikhana pad sakta hai.</p>
+      </details>
+      <details>
+        <summary>Payment kaise hoti hai? <svg class="ic"><use href="#i-chev"/></svg></summary>
+        <p>Order confirm karne par payment ka tareeqa WhatsApp par bata diya jata hai.</p>
+      </details>
+      <details>
+        <summary>Kitna time lagta hai? <svg class="ic"><use href="#i-chev"/></svg></summary>
+        <p>Time tool aur service par depend karta hai. Exact andaza WhatsApp par share kiya jata hai.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="container contact-grid">
+    <div class="cta-card reveal">
+      <span class="eyebrow">Order &amp; Price</span>
+      <h2>Price janne ke liye WhatsApp karein</h2>
+      <p>Tool ka naam ya service batayein. Aapko latest activation price aur details bhej di jayengi.</p>
+      <div class="bignum wa-display">0340 2453130</div>
+      <div class="cta-row">
+        <a class="btn btn-wa" href="https://wa.me/923402453130" data-msg="Hello UGC NINJA PRO PROVIDER, I want to know the price."><svg class="ic"><use href="#i-chat"/></svg>Chat on WhatsApp</a>
+        <button class="btn btn-ghost" id="copyNum" type="button"><svg class="ic"><use href="#i-copy"/></svg>Copy Number</button>
+      </div>
+    </div>
+    <form class="card form reveal" id="inq" style="--d:.1s">
+      <h3>Quick inquiry</h3>
+      <div class="two">
+        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Optional" autocomplete="name"></div>
+        <div class="field"><label for="model">Device / model</label><input id="model" name="model" type="text" placeholder="e.g. Samsung A12"></div>
+      </div>
+      <div class="field"><label for="item">I am interested in</label><select id="item" name="item"></select></div>
+      <div class="field"><label for="msg">Message</label><textarea id="msg" name="msg" placeholder="Tell us what you need"></textarea></div>
+      <button class="btn btn-wa" type="submit"><svg class="ic"><use href="#i-chat"/></svg>Send on WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container foot-grid">
+    <div>
+      <a href="#home" class="brand"><svg class="logo-svg"><use href="#logo"/></svg><span class="wm">UGC <b>NINJA</b> PRO</span></a>
+      <p>Mobile software tools, activation and repair solutions for technicians and shops.</p>
+    </div>
+    <div>
+      <h4>Quick links</h4>
+      <ul>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">How it works</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="https://wa.me/923402453130" data-msg="Hello UGC NINJA PRO PROVIDER, I want to know the price."><span class="wa-display">0340 2453130</span> (WhatsApp)</a></li>
+        <li><a href="#contact">Send an inquiry</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container foot-bottom">
+    <span>&copy; <span id="year">2026</span> UGC NINJA PRO PROVIDER. All rights reserved.</span>
+    <span>All product, tool and brand names are the property of their respective owners and are used for identification only. Services are provided for devices you own or are authorised to service.</span>
+  </div>
+</footer>
+
+<a class="float-wa" id="floatWa" href="https://wa.me/923402453130" data-msg="Hello UGC NINJA PRO PROVIDER, I want to know the price." aria-label="Chat on WhatsApp"><svg class="ic"><use href="#i-chat"/></svg><span>Chat with us</span></a>
+<button class="totop" id="totop" type="button" aria-label="Back to top"><svg class="ic"><use href="#i-up"/></svg></button>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(() => {
+'use strict';
+
+/* =====================================================================
+   EDIT HERE
+   - CONFIG.whatsapp : country code + number, no + or spaces
+   - TOOLS           : add / remove tools. Set price:"Rs. 1500" to show a price.
+   - LOGOS           : put a file named logos/<id>.png next to this HTML file
+                       (id is the "id" value of each tool below). If the file
+                       is missing, a clean badge with initials is shown.
+   ===================================================================== */
+const CONFIG = {
+  brand: 'UGC NINJA PRO PROVIDER',
+  whatsapp: '923402453130',
+  display: '0340 2453130',
+  priceText: 'Ask on WhatsApp',
+  logoExt: 'png'
+};
+
+const TOOLS = [
+  { id:'fenix-pro',   name:'Fenix Pro',        cat:'android', desc:'Android service tool: fresh activation, renewal and setup help.', tags:['Activation','Renewal','Setup help'] },
+  { id:'unlock-tool', name:'Unlock Tool',      cat:'android', desc:'Popular all-rounder for Android servicing on many brands.', tags:['FRP','Unlock','Flash','Repair'] },
+  { id:'dft-pro',     name:'DFT Pro',          cat:'android', desc:'Android servicing tool for unlock and repair jobs.', tags:['Unlock','FRP','Repair'] },
+  { id:'tft',         name:'TFT Unlocker',     cat:'android', desc:'Everyday Android unlocker for FRP, unlock and flash work.', tags:['FRP','Unlock','Flash'] },
+  { id:'pandora',     name:'Pandora Tool',     cat:'android', desc:'Android service tool: activation and credits available.', tags:['Activation','Credits'] },
+  { id:'hydra',       name:'Hydra Tool',       cat:'android', desc:'Android servicing tool: activation, renewal and support.', tags:['Activation','Renewal','Support'] },
+  { id:'sigmakey',    name:'SigmaKey',         cat:'android', desc:'Servicing software: activation and credits on request.', tags:['Activation','Credits'] },
+  { id:'griffin',     name:'Griffin Unlocker', cat:'android', desc:'Android unlocker: activation and renewal on request.', tags:['Activation','Renewal'] },
+  { id:'eft',         name:'EFT Pro',          cat:'android', desc:'Firmware and servicing tool: activation and credits.', tags:['Firmware','Activation','Credits'] },
+  { id:'octoplus',    name:'Octoplus Pro',     cat:'samsung', desc:'Samsung-focused servicing: unlock, repair and flash tasks.', tags:['Samsung','Unlock','Repair','Flash'] },
+  { id:'chimera',     name:'Chimera Tool',     cat:'samsung', desc:'Multi-brand servicing including Samsung and Huawei.', tags:['Samsung','Huawei','Repair'] },
+  { id:'z3x',         name:'Z3X Samsung Pro',  cat:'samsung', desc:'Samsung unlock and repair box software.', tags:['Samsung','Unlock','Repair'] },
+  { id:'umt',         name:'UMT Dongle',       cat:'dongle',  desc:'Servicing dongle: activation and credits.', tags:['MTK','Qualcomm','SPD'] },
+  { id:'mrt',         name:'MRT Dongle',       cat:'dongle',  desc:'Flash, unlock and repair: credits and activation.', tags:['MTK','SPD','Qualcomm'] },
+  { id:'nck',         name:'NCK Dongle',       cat:'dongle',  desc:'Multi-chipset servicing dongle: activation and credits.', tags:['Samsung','Huawei','MTK'] },
+  { id:'miracle',     name:'Miracle Box',      cat:'dongle',  desc:'Classic MTK and SPD flashing and unlock box: activation and support.', tags:['MTK','SPD','Flash'] },
+  { id:'cm2',         name:'CM2 / Infinity',   cat:'dongle',  desc:'Infinity-Box family: MTK, SPD and Qualcomm servicing, credits.', tags:['MTK','SPD','Qualcomm'] },
+  { id:'apple-flash', name:'Apple Flash Service', cat:'apple', desc:'iPhone and iPad restore and firmware update, recovery and DFU error fixes.', tags:['Restore','Update','DFU'] }
+];
+
+const BRANDS = ['Samsung','Xiaomi','Redmi','POCO','Oppo','Vivo','Realme','Infinix','Tecno','Itel','Huawei','Honor','OnePlus','Motorola','Nokia','Google Pixel','Lenovo','Apple iPhone','Apple iPad'];
+
+const CATS = { android:'Android Tool', samsung:'Samsung Tool', dongle:'Dongle / Box', apple:'Apple Service' };
+const TABS = { all:'All', android:'Android', samsung:'Samsung', dongle:'Dongles & Box', apple:'Apple' };
+/* ===================================================================== */
+
+const $  = (s, c = document) => c.querySelector(s);
+const $$ = (s, c = document) => [...c.querySelectorAll(s)];
+const waURL = m => `https://wa.me/${CONFIG.whatsapp}` + (m ? `?text=${encodeURIComponent(m)}` : '');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+/* ---------- Tools grid ---------- */
+const hue = s => { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 360; return h; };
+const initials = n => {
+  const w = n.replace(/[^A-Za-z0-9 ]/g, ' ').trim().split(/\s+/);
+  return (w.length > 1 ? w[0][0] + w[1][0] : w[0].slice(0, 2)).toUpperCase();
+};
+
+function toolCard(t, i) {
+  const a = document.createElement('article');
+  a.className = 'card tool tilt reveal';
+  a.dataset.cat = t.cat;
+  a.style.setProperty('--d', (i % 6) * 0.06 + 's');
+  const price = t.price || CONFIG.priceText;
+  const msg = `Hello ${CONFIG.brand}, I want ${t.name} activation. Please share the price.`;
+  a.innerHTML = `
+    <div class="tool-top">
+      <div class="logo-slot"><span class="mono" style="--h:${hue(t.name)}">${initials(t.name)}</span></div>
+      <div><h3>${t.name}</h3><span class="cat c-${t.cat}">${CATS[t.cat]}</span></div>
+    </div>
+    <p>${t.desc}</p>
+    <div class="chips">${t.tags.map(x => `<span>${x}</span>`).join('')}</div>
+    <div class="tool-bottom">
+      <div class="price-box"><small>Activation Price</small><strong>${price}</strong></div>
+      <a class="btn btn-wa btn-sm" href="${waURL(msg)}" target="_blank" rel="noopener"><svg class="ic"><use href="#i-chat"/></svg>Order</a>
+    </div>`;
+  const slot = $('.logo-slot', a);
+  const img = new Image();
+  img.alt = t.name + ' logo';
+  img.decoding = 'async';
+  img.onload = () => { slot.classList.add('has-img'); slot.replaceChildren(img); };
+  img.src = t.logo || `logos/${t.id}.${CONFIG.logoExt}`;
+  return a;
+}
+
+const grid = $('#toolsGrid');
+TOOLS.forEach((t, i) => grid.appendChild(toolCard(t, i)));
+
+const fWrap = $('#filters');
+Object.keys(TABS).forEach(k => {
+  const n = k === 'all' ? TOOLS.length : TOOLS.filter(t => t.cat === k).length;
+  if (!n) return;
+  const b = document.createElement('button');
+  b.type = 'button';
+  b.className = 'filter' + (k === 'all' ? ' active' : '');
+  b.dataset.f = k;
+  b.innerHTML = `${TABS[k]}<span class="n">${n}</span>`;
+  fWrap.appendChild(b);
+});
+fWrap.addEventListener('click', e => {
+  const b = e.target.closest('.filter');
+  if (!b) return;
+  $$('.filter', fWrap).forEach(x => x.classList.toggle('active', x === b));
+  const f = b.dataset.f;
+  $$('.tool', grid).forEach(c => {
+    const show = f === 'all' || c.dataset.cat === f;
+    c.hidden = !show;
+    if (show) { c.classList.remove('pop'); void c.offsetWidth; c.classList.add('pop'); }
+  });
+});
+
+/* ---------- Brands marquee ---------- */
+const chipsHTML = BRANDS.map(b => `<span class="brand-chip">${b}</span>`).join('');
+$('#track').innerHTML = chipsHTML + chipsHTML;
+
+/* ---------- Stats ---------- */
+$('#statTools').dataset.count = TOOLS.length;
+$('#statSvc').dataset.count = $$('.svc').length;
+$('#statBrands').dataset.count = BRANDS.length;
+const cio = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  cio.unobserve(e.target);
+  const el = e.target, end = +el.dataset.count, t0 = performance.now(), dur = 1400;
+  const step = t => {
+    const p = Math.min(1, (t - t0) / dur);
+    el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3))) + (p === 1 ? '+' : '');
+    if (p < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}), { threshold: 0.6 });
+$$('[data-count]').forEach(el => cio.observe(el));
+
+/* ---------- Inquiry form options ---------- */
+$('#item').innerHTML =
+  `<option value="General price inquiry">General price inquiry</option>` +
+  `<optgroup label="Services">${$$('.svc h3').map(h => `<option>${h.textContent}</option>`).join('')}</optgroup>` +
+  `<optgroup label="Tools &amp; Activation">${TOOLS.map(t => `<option>${t.name}</option>`).join('')}</optgroup>`;
+
+$('#inq').addEventListener('submit', e => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  const lines = [`Hello ${CONFIG.brand},`, `Interested in: ${f.get('item')}`];
+  if (f.get('name')) lines.push(`Name: ${f.get('name')}`);
+  if (f.get('model')) lines.push(`Device / Model: ${f.get('model')}`);
+  if (f.get('msg')) lines.push(`Message: ${f.get('msg')}`);
+  lines.push('Please share the price and details.');
+  window.open(waURL(lines.join('\n')), '_blank', 'noopener');
+});
+
+/* ---------- WhatsApp links & number (single source of truth) ---------- */
+$$('a[href*="wa.me/"]').forEach(a => {
+  if (a.dataset.msg) a.href = waURL(a.dataset.msg);
+  else a.href = a.href.replace(/wa\.me\/\d+/, 'wa.me/' + CONFIG.whatsapp);
+  a.target = '_blank';
+  a.rel = 'noopener';
+});
+$$('.wa-display').forEach(el => { el.textContent = CONFIG.display; });
+$('#year').textContent = new Date().getFullYear();
+
+/* ---------- Copy number + toast ---------- */
+function toast(m) {
+  const t = $('#toast');
+  t.textContent = m;
+  t.classList.add('show');
+  clearTimeout(toast.t);
+  toast.t = setTimeout(() => t.classList.remove('show'), 2200);
+}
+$('#copyNum').addEventListener('click', async () => {
+  const num = CONFIG.display;
+  try { await navigator.clipboard.writeText(num); }
+  catch (err) {
+    const t = document.createElement('textarea');
+    t.value = num; document.body.appendChild(t); t.select();
+    try { document.execCommand('copy'); } catch (_) {}
+    t.remove();
+  }
+  toast('Number copied: ' + num);
+});
+
+/* ---------- Typing effect ---------- */
+const words = ['FRP Bypass','Android Flash','Apple Flash','Fenix Pro Activation','Unlock Tool and DFT Pro','TFT Tool Activation','Dongle Credits and Support'];
+const typed = $('#typed');
+let wi = 0, ci = 0, del = false;
+(function tick() {
+  const w = words[wi];
+  if (!del) {
+    ci++;
+    typed.textContent = w.slice(0, ci);
+    if (ci === w.length) { del = true; return setTimeout(tick, 1500); }
+    return setTimeout(tick, 75);
+  }
+  ci--;
+  typed.textContent = w.slice(0, ci);
+  if (ci === 0) { del = false; wi = (wi + 1) % words.length; return setTimeout(tick, 300); }
+  setTimeout(tick, 35);
+})();
+
+/* ---------- Phone demo animation ---------- */
+const DEMO = [
+  { t:'FRP Bypass',      l:['Connecting to device...','Reading device info...','Checking security patch...','Removing Google lock...'], r:'FRP step completed' },
+  { t:'Android Flash',   l:['Detecting chipset...','Loading firmware...','Flashing partitions...','Verifying images...'], r:'Flash completed' },
+  { t:'Apple Flash',     l:['Device in recovery mode...','Downloading firmware...','Restoring system...','Verifying restore...'], r:'Restore completed' },
+  { t:'Tool Activation', l:['Checking account...','Adding credits...','Activating license...','Syncing server...'], r:'Activation completed' }
+];
+const logEl = $('#log'), bar = $('#barFill'), dTitle = $('#demoTitle'), dRes = $('#demoRes');
+let di = 0;
+(function runDemo() {
+  const d = DEMO[di % DEMO.length]; di++;
+  dTitle.textContent = d.t;
+  logEl.innerHTML = '';
+  dRes.classList.remove('show'); dRes.textContent = '';
+  bar.style.transition = 'none'; bar.style.width = '0'; void bar.offsetWidth;
+  bar.style.transition = 'width 3.4s linear'; bar.style.width = '100%';
+  d.l.forEach((line, i) => setTimeout(() => {
+    const el = document.createElement('div');
+    el.className = 'ln'; el.textContent = line; logEl.appendChild(el);
+  }, i * 800));
+  setTimeout(() => { dRes.textContent = '\u2714 ' + d.r; dRes.classList.add('show'); }, d.l.length * 800 + 200);
+  setTimeout(runDemo, d.l.length * 800 + 2600);
+})();
+
+/* ---------- Reveal on scroll ---------- */
+const rio = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  const el = e.target;
+  el.classList.add('in');
+  rio.unobserve(el);
+  setTimeout(() => el.classList.add('done'), 1300);
+}), { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }) : null;
+$$('.reveal').forEach(el => rio ? rio.observe(el) : el.classList.add('in', 'done'));
+
+/* ---------- Nav: active link, progress, scroll state ---------- */
+const navLinks = $$('#links a');
+const sio = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id));
+}), { rootMargin: '-45% 0px -50% 0px' });
+['home','tools','services','process','faq','contact'].forEach(id => { const s = document.getElementById(id); if (s) sio.observe(s); });
+
+const prog = $('#progress'), nav = $('#nav'), totop = $('#totop');
+function onScroll() {
+  const max = document.documentElement.scrollHeight - innerHeight;
+  prog.style.transform = `scaleX(${max > 0 ? scrollY / max : 0})`;
+  nav.classList.toggle('scrolled', scrollY > 20);
+  totop.classList.toggle('show', scrollY > 700);
+}
+addEventListener('scroll', onScroll, { passive: true });
+onScroll();
+totop.addEventListener('click', () => scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }));
+
+const burger = $('#burger'), links = $('#links');
+burger.addEventListener('click', () => {
+  const o = links.classList.toggle('open');
+  burger.setAttribute('aria-expanded', String(o));
+});
+links.addEventListener('click', e => {
+  if (e.target.closest('a')) { links.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); }
+});
+
+/* ---------- FAQ: one open at a time ---------- */
+$$('.faq details').forEach(d => d.addEventListener('toggle', () => {
+  if (d.open) $$('.faq details').forEach(o => { if (o !== d) o.open = false; });
+}));
+
+/* ---------- Tilt + spotlight on cards (desktop only) ---------- */
+function tilt(el) {
+  el.addEventListener('mousemove', e => {
+    const r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+    el.style.setProperty('--mx', (x * 100) + '%');
+    el.style.setProperty('--my', (y * 100) + '%');
+    el.style.transform = `perspective(900px) rotateX(${(0.5 - y) * 6}deg) rotateY(${(x - 0.5) * 8}deg) translateY(-6px)`;
+  });
+  el.addEventListener('mouseleave', () => { el.style.transform = ''; });
+}
+if (fine && !reduce) {
+  $$('.tilt').forEach(tilt);
+  const hero = $('#home'), spot = $('#spot'), vis = $('.hero-visual'), phone = $('#phone');
+  hero.addEventListener('mousemove', e => {
+    const r = hero.getBoundingClientRect();
+    spot.style.setProperty('--sx', (e.clientX - r.left) + 'px');
+    spot.style.setProperty('--sy', (e.clientY - r.top) + 'px');
+  });
+  vis.addEventListener('mousemove', e => {
+    const r = vis.getBoundingClientRect();
+    const x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
+    phone.style.transform = `rotateY(${x * 20}deg) rotateX(${-y * 14}deg)`;
+  });
+  vis.addEventListener('mouseleave', () => { phone.style.transform = ''; });
+}
+
+/* ---------- Particle network background ---------- */
+(function () {
+  if (reduce) return;
+  const cv = $('#bg'), ctx = cv.getContext('2d');
+  let W, H, P = [];
+  const init = () => {
+    W = cv.width = innerWidth; H = cv.height = innerHeight;
+    P = Array.from({ length: Math.min(60, Math.round(W / 22)) }, () => ({
+      x: Math.random() * W, y: Math.random() * H,
+      vx: (Math.random() - 0.5) * 0.35, vy: (Math.random() - 0.5) * 0.35
+    }));
+  };
+  addEventListener('resize', init);
+  init();
+  (function loop() {
+    if (!document.hidden) {
+      ctx.clearRect(0, 0, W, H);
+      for (let i = 0; i < P.length; i++) {
+        const p = P[i];
+        p.x += p.vx; p.y += p.vy;
+        if (p.x < 0 || p.x > W) p.vx *= -1;
+        if (p.y < 0 || p.y > H) p.vy *= -1;
+        ctx.beginPath(); ctx.arc(p.x, p.y, 1.4, 0, 6.2832);
+        ctx.fillStyle = 'rgba(34,211,238,.6)'; ctx.fill();
+        for (let j = i + 1; j < P.length; j++) {
+          const q = P[j], d = Math.hypot(p.x - q.x, p.y - q.y);
+          if (d < 120) {
+            ctx.strokeStyle = `rgba(139,92,246,${0.16 * (1 - d / 120)})`;
+            ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+          }
+        }
+      }
+    }
+    requestAnimationFrame(loop);
+  })();
+})();
+
+})();
+</script>
+</body>
+</html>
